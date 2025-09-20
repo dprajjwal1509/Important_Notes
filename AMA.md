@@ -1,22 +1,61 @@
 # Technical Paper
 
-## 1. Ordered List and Unordered List in HTML
-- **Ordered List (`<ol>`)**: Displays items in a sequence with numbers or letters. Useful when order matters (e.g., steps in a recipe).  
-Example:  
-```html
+## 1. Types of List in HTML
+
+## 1. Ordered List (`<ol>`)
+
+-   Displays items in a sequence with numbers or letters.\
+-   Useful when order matters (e.g., steps in a recipe).
+
+**Example:**
+
+``` html
 <ol>
   <li>Step One</li>
   <li>Step Two</li>
 </ol>
 ```
-- **Unordered List (`<ul>`)**: Displays items with bullet points, where order doesn’t matter (e.g., shopping list).  
-Example:  
-```html
+
+------------------------------------------------------------------------
+
+## 2. Unordered List (`<ul>`)
+
+-   Displays items with bullet points.\
+-   Useful when order doesn't matter (e.g., shopping list).
+
+**Example:**
+
+``` html
 <ul>
   <li>Apples</li>
   <li>Bananas</li>
 </ul>
 ```
+
+------------------------------------------------------------------------
+
+## 3. Description/Definition List (`<dl>`)
+
+-   Used for defining terms and their descriptions.\
+-   Consists of:
+    -   `<dt>` → Definition Term\
+    -   `<dd>` → Definition Description
+
+**Example:**
+
+``` html
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language, used to structure web content.</dd>
+
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets, used for styling web pages.</dd>
+
+  <dt>JavaScript</dt>
+  <dd>Programming language that adds interactivity to websites.</dd>
+</dl>
+```
+
 
 ## 2. List Flattening
 List flattening means converting a nested list (multi-level list) into a single-level list.  
